@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>ALKILER DE SILLAS</title>
+</head>
+<body>
+    <!-- MENU -->
+    <div class="contenedor-header">
+        <header>
+            <h1>ALKILER <span class="txtRojo">SILLAS</span></h1>
+            <nav id="nav">
+                <a href="#inicio" onclick="seleccionar()">inicio</a>
+                <a href="#nosotros" onclick="seleccionar()">Nosotros</a>
+                <a href="#servicios" onclick="seleccionar()">Servicios</a>
+                <a href="#comodidades" onclick="seleccionar()">Homenaje</a>
+                <a href="#galeria" onclick="seleccionar()">Galería</a>
+                <a href="#equipo" onclick="seleccionar()">Equipo</a>
+                <a href="#contacto" onclick="seleccionar()">Contacto</a>
+            </nav>
+            <div class="redes">
+                <a href="https://www.facebook.com/profile.php?id=61552416332718" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=+51930825723&text=ALKILER+SILLAS+MIS+ELIZABETH" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/sillas_miseli/" target="_blank">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+            </div>
+            
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>                
+        </header>
+    </div>
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-seccion">
+            <div class="info">
+                <h2>MIS <span class="txtRojo">ELIZABETH</span></h2>
+                <p>"¡Siéntete Cómodo, Siéntete Especial con Nuestras Sillas!"</p>
+                <a href="#nosotros" class="btn-mas">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                </a>
+            </div>
+            <div class="opciones">
+               
+                  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION NOSOTROS -->
+    <section id="nosotros" class="nosotros">
+        <div class="fila">
+            <div class="col">
+                <img src="img/nosotros.png" alt="">
+            </div>
+            <div class="col">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+                        01
+                    </div>
+                    <div class="info">
+                        <span class="frase">LA MEJOR COMODIDAD</span>
+                        <h2>NOSOTROS</h2>
+                    </div>
+                </div>
+                <p class="p-especial">Descubre la Mejor Comodidad en Cada Evento</p>
+                <p>En nuestro negocio de alquiler de sillas, no solo te ofrecemos asientos, sino una experiencia completa que transforma tu evento. Desde el instante en que eliges nuestras sillas, te damos la bienvenida a un mundo de confort y estilo. Nos especializamos en ofrecerte opciones versátiles y elegantes que se adaptan perfectamente a tus necesidades, asegurando que cada ocasión sea inolvidable. Con nuestra atención al detalle y compromiso con la calidad, cada silla que proporcionamos está diseñada para elevar tu evento y ofrecerte una comodidad sin igual.
+
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="fila-nosotros">
+            <div class="col1">
+                <span class="frase">
+                    <span class="txtRojo">ENTRENA</span> DIFERENTE
+                </span>
+                <h2>ENTRENA <span class="txtRojo">GRATIS</span> HOY!</h2>
+            </div>
+            <div class="col2">
+                <button>PASE LIBRE</button>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION SERVICIOS -->
+    <section class="servicios" id="servicios">
+        <div class="contenido-seccion">
+            <div class="fila">
+                <div class="col">
+                    <div class="contenedor-titulo">
+                        <div class="numero">
+                            02
+                        </div>
+                        <div class="info">
+                            <span class="frase">
+                                EL MEJOR SERVICIO</span>
+                            <h2>SERVICIOS</h2>
+                        </div>
+                    </div>
+                    <p class="p-especial">Sillas de Primera Clase para Cada Evento</p>
+                    <p>Experimenta el máximo confort y estilo con nuestras sillas de alta calidad, cuidadosamente seleccionadas para adaptarse a cualquier ocasión. Nuestro servicio integral incluye entregas puntuales, garantizando que tu evento no solo sea memorable, sino también perfectamente preparado. Con nuestro compromiso con la excelencia y la satisfacción del cliente.</p>
+                </div>
+                <div class="col">
+                    <img src="img/servicios.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="info-servicios">
+            <table>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-chair"></i>
+                        <h3><span class="txtRojo">Sillas </span> Elegantes</h3>
+                        <p>Transforma tu evento con nuestras sillas elegantes, diseñadas para añadir un toque de sofisticación a cualquier ocasión. Desde bodas hasta galas, nuestras sillas combinan estilo y comodidad para hacer que cada momento sea especial.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-chair-office"></i>
+                        <h3><span class="txtRojo">Sillas </span> para Reuniones</h3>
+                        <p>Equipa tus reuniones y conferencias con nuestras sillas funcionales y cómodas. Ideal para entornos profesionales, nuestras sillas están diseñadas para ofrecer el máximo confort durante largos períodos, garantizando que tus invitados o empleados se mantengan productivos y cómodos.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-chair-alt"></i>
+                        <h3><span class="txtRojo">Sillas </span> para Eventos</h3>
+                        <p>Desde eventos al aire libre hasta celebraciones íntimas, nuestras sillas versátiles se adaptan a cualquier configuración. Ofrecemos opciones prácticas y estéticamente agradables para asegurar que tu evento sea un éxito rotundo y bien organizado.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-truck"></i>
+                        <h3><span class="txtRojo">Entrega y </span> Montaje</h3>
+                        <p>Disfruta de un servicio completo con nuestra entrega y montaje eficiente. Nos encargamos de llevar las sillas a tu lugar de evento y montarlas para que puedas concentrarte en disfrutar de la ocasión sin preocupaciones.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-calendar-check"></i>
+                        <h3><span class="txtRojo">Reservas </span> Flexibles</h3>
+                        <p>Adaptamos nuestras reservas a tus necesidades, ofreciendo flexibilidad en la cantidad y el tiempo de alquiler de sillas. Ya sea para un evento único o para una serie de eventos, trabajamos contigo para asegurar que todo esté cubierto.</p>
+                    </td>
+                    <td>
+                        
+                </tr>
+            </table>
+        </div>
+        
+    </section>
+
+   <!-- SECCION COMODIDADES -->
+<section id="comodidades" class="comodidades">
+    <div class="fila">
+        <div class="col">
+            <img src="img/anai.png" alt="">
+        </div>
+        <div class="col">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    03
+                </div>
+                <div class="info">
+                    <span class="frase">DEDICADO PARA ANAI ELIZABETH</span>
+                    <h2>HOMENAJE</h2>
+                </div>
+            </div>
+            <p class="p-especial"></p>
+            <ul>
+                <li><span>HOMENAJE A ANAI ELIZABETH</span> Nuestras sillas llevan el nombre de Anai Elizabeth, una persona cuya memoria y legado mantenemos vivos en cada evento que hacemos especial. Aunque ya no está con nosotros, su espíritu y su nombre continúan brillando a través de nuestro servicio.</li>
+                
+            </ul>
+        </div>
+    </div>
+</section>
+<!-- SECCION GALERIA -->
+<section class="galeria" id="galeria">
+    <div class="contenido-seccion">
+        <div class="contenedor-titulo">
+            <div class="numero">04</div>
+            <div class="info">
+                <span class="frase">NUESTRA GALERIA</span>
+                <h2>GALERIA</h2>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="col">
+                <img src="img/f1.jpg" alt="" class="galeria-img">
+            </div>
+            <div class="col">
+                <img src="img/f2.jpg" alt="" class="galeria-img">
+            </div>
+            <div class="col">
+                <img src="img/f3.jpg" alt="" class="galeria-img">
+            </div>
+        </div>
+        <div class="fila">
+            <div class="col">
+                <img src="img/f4.jpg" alt="" class="galeria-img">
+            </div>
+            <div class="col">
+                <img src="img/.jpg" alt="" class="galeria-img">
+            </div>
+            <div class="col">
+                <img src="img/.jpg" alt="" class="galeria-img">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Modal -->
+<div id="modal" class="modal">
+    <span class="close" onclick="cerrarModal()">&times;</span>
+    <div class="modal-contenido">
+        <img id="modal-img" class="modal-imagen" src="" alt="Imagen de la galería">
+        <a class="modal-prev" onclick="cambiarImagen(-1)">&#10094;</a>
+        <a class="modal-next" onclick="cambiarImagen(1)">&#10095;</a>
+    </div>
+</div>
+
+<!-- SECCION EQUIPO -->
+    <section class="equipo" id="equipo">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    05
+                </div>
+                <div class="info">
+                    <span class="frase">LA MEJOR EXPERIENCIA</span>
+                    <h2>NUESTRO EQUIPO</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="" alt="">
+                    <div class="info">
+                        <h2>GERSON</h2>
+                        <p></p>
+                        <a href="#">
+                            <a href="https://www.facebook.com/profile.php?id=61552416332718" target="_blank">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            
+                            <a href="#">
+                                <a href="https://api.whatsapp.com/send?phone=+51918237393&text=alkiler+de+sillas+mis_elizabeth" target="_blank">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="" alt="">
+                    <div class="info">
+                        <h2>MARTHA</h2>
+                        <p></p>
+                        <a href="#">
+                            <a href="https://www.facebook.com/martha.fimor" target="_blank">
+                                <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <a href="https://api.whatsapp.com/send?phone=+51930825723&text=ALKILER+SILLAS+MIS+ELIZABETH" target="_blank">
+                                <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="" alt="">
+                    <div class="info">
+                        <h2>ISAAC</h2>
+                        <p></p>
+                        <a href="#">
+                            <a href="https://www.facebook.com/Isaac.david.17" target="_blank">
+                                <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                                <a href="https://api.whatsapp.com/send?phone=+51916995945&text=ALKILER+DE+SILLAS+MIS+ELIZABETH" target="_blank">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    06
+                </div>
+                <div class="info">
+                    <span class="frase">LA MEJOR EXPERIENCIA</span>
+                    <h2>CONTACTO</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                 
+                </div>
+                <div class="col">
+                   
+                </div>
+            </div>
+            <div class="">
+        
+              
+            </div>
+            <div class="fila-datos">
+                <div class="col">
+                    <i class="fa-solid fa-phone"></i>
+                    916995945
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-phone"></i>
+                    930825723
+                </div>
+                <div class="col">
+                    <i class="fa-regular fa-clock"></i>
+                    Lunes a Viernes, 6.00am - 12:00 Pm 24:00h
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="info">
+            <p>2024 - <span class="txtRojo">ALKILER SILLAS</span> Todos los derechos reservados</p>
+            <div class="redes">
+                <a href="#">
+                    <a href="https://www.instagram.com/sillas_miseli/" target="_blank">
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </a>
+                </a>
+                <a href="#">
+                    <a href="https://www.facebook.com/profile.php?id=61552416332718" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class=""></i>
+                </a>
+                <a href="#">
+                    <i class=""></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
